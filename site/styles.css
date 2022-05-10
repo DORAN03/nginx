@@ -1,40 +1,97 @@
 body {
   margin: 0;
-  padding: 2rem;
-  background-color: hsl(250, 24%, 9%);
-  color: hsl(0, 0%, 100%);
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  padding: 0;
+  margin-bottom: 0;
+  background-color: #5CDB95;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+.NavUL {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  z-index: 100000;
 }
 
-h1 {
-  font-size: 48px;
-  margin: 1rem 0;
+.NavLI {
+   float: left;
 }
 
-.logo {
-  width: 8rem;
-  height: 8rem;
-  margin-bottom: 2rem;
-}
-
-p {
-  line-height: 1.6;
-}
-
-a {
-  color: hsl(270, 70%, 65%);
+.NavLI a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
+#inactive a:hover {
+  background-color: #111;
+}
+
+#active {
+  background-color: #04AA6D;
+}
+
+#active a:hover {
+  background-color: #025234;
+}
+
+#logo {
+  display: block;
+  max-height: 48px;
+  overflow: hidden;
+  margin: 0px 10px 0px 10px;
+}
+
+.ZoneA {
+  margin-top: 47px;
+  margin-bottom: 0px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#quote1 {
+  left: 0;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+#Q1Text {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#name {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+#AboutClubTitle {
+  color: white;
+  text-align: center;
+}
+
+#ClubInfo {
+  color: white;
+  text-align: center;
+  margin: 0px 5px 0px 5px;
+}
+
+#ClubExtra {
+  text-align: center;
+  text-decoration: none;
 }
