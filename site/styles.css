@@ -50,7 +50,7 @@ body {
 }
 
 .ZoneA {
-  margin-top: 47px;
+  margin-top: 5px;
   margin-bottom: 0px;
   padding: 0;
   position: relative;
@@ -66,6 +66,14 @@ body {
   color: white;
   text-align: center;
   margin: 0px 5px 0px 5px;
+}
+
+.ZoneB {
+  margin-top: 47px;
+  margin-bottom: 0px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 #name {
