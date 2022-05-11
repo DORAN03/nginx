@@ -57,6 +57,17 @@ body {
   overflow: hidden;
 }
 
+#ZATitle {
+  color: white;
+  text-align: center;
+}
+
+.ZAFact {
+  color: white;
+  text-align: center;
+  margin: 0px 5px 0px 5px;
+}
+
 #name {
   color: white;
   font-size: 20px;
