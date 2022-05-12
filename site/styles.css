@@ -126,3 +126,10 @@ body {
 #BannerSlogan {
   font-size: 24px;
 }
+
+#BannerButton {
+  background-color: #F2F4F5;
+  color: #fff;
+  color: rgba(0, 0, 0, 0);
+  font-size: 16px;
+}
