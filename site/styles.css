@@ -128,7 +128,12 @@ body {
 }
 
 #BannerButton {
-  background-color: #000;
+  background-color: #F2F4F6;
+  border: none;
   color: rgba(0, 0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
 }
