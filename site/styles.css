@@ -90,7 +90,7 @@ body {
 
 #ClubInfo {
   color: white;
-  text-align: center;
+  text-align: right;
   margin: 0px 5px 0px 5px;
 }
 
@@ -167,11 +167,7 @@ body {
 }
 
 #Quote1 {
-  display: inline-block;
   align: left;
   margin: 10px 10px 10px 10px;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%);
   z-index: 1000000;
 }
