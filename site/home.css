@@ -168,8 +168,8 @@ body {
 
 #Quote1 {
   display: inline-block;
-  width: auto;
-  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   margin: 0px 0px 0px 0px;
 }
 
