@@ -185,7 +185,7 @@ body {
 
 .left {
   flex: 50%;
-  background-color: #f1f1f1;
+  background-color: #5CDB95;
   padding: 20px;
 }
 
@@ -211,5 +211,5 @@ body {
 .footer {
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
+  background: #3c9162; /* Grey background */
 }
