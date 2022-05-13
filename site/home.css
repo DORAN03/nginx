@@ -92,12 +92,10 @@ body {
   color: white;
   text-align: left;
   margin: 0px 5px 0px 5px;
-  width: 50px;
-  float: left;
 }
 
 #ClubExtra {
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 
