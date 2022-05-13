@@ -167,7 +167,8 @@ body {
 }
 
 #Quote1 {
+  width: 20%;
+  height: 20%;
   align: left;
   margin: 10px 10px 10px 10px;
-  z-index: 1000000;
 }
