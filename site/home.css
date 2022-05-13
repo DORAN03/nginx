@@ -167,11 +167,10 @@ body {
 }
 
 #Quote1 {
-  width: 50%;
-  height: 50%;
-  float: left;
+  display: inline-block;
+  width: auto;
+  height: auto;
   margin: 0px 0px 0px 0px;
-  top: 1;
 }
 
 * {
