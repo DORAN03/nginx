@@ -173,3 +173,43 @@ body {
   margin: 0px 0px 0px 0px;
   top: 1;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.right {
+  flex: 50%;
+  background-color: #5CDB95;
+  padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+}
