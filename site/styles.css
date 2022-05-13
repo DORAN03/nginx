@@ -169,6 +169,6 @@ body {
 #Quote1 {
   width: 20%;
   height: 20%;
-  align: left;
-  margin: 10px 10px 10px 10px;
+  float: left;
+  margin: 0px 0px 0px 0px;
 }
