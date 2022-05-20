@@ -1,0 +1,13 @@
+body {
+  position: absolute;
+  background-image: url("https://github.com/DORAN03/FileArchive/blob/main/STA-Coding-Banner.png?raw=true");
+}
+
+.Main2 {
+  position: relative;
+  background-color: #ffffff;
+  height: 200px;
+  Width: 100%;
+  top: 60px;
+  z-index: 2;
+}
