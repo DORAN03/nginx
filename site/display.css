@@ -23,6 +23,7 @@ body {
 }
 
 .Announcement {
+  position: relative;
   background-color: #105b73;
   border-radius: 25px;
   border: solid 1px #40939f;
