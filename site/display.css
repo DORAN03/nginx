@@ -1,0 +1,48 @@
+body {
+  background-color: #262a33;
+}
+
+.cover {
+  position: absolute;
+  top: 340;
+  left: 850px;
+  background-color: #262a33;
+  width: 567px;
+  height: 280px;
+  z-index: 100000;
+}
+
+.coverFinal {
+  position: absolute;
+  top: 300;
+  left: 0px;
+  background-color: #262a33;
+  width: 1567px;
+  height: 2080px;
+  z-index: 100;
+}
+
+.Announcement {
+  background-color: #105b73;
+  border-radius: 25px;
+  border: solid 1px #40939f;
+  width: 50%;
+  margin: auto;
+  padding: 0px;
+  bottom: 50px;
+  z-index: 1000000000;
+}
+
+.AlertTitle {
+  top: 0px;
+  padding: 0px;
+  text-align: center;
+    z-index: 100000000000;
+}
+
+.AlertText {
+  top: 0px;
+  padding: 0px;
+  text-align: center;
+    z-index: 100000000000;
+}
