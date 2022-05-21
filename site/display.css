@@ -23,6 +23,18 @@ body {
   z-index: 100;
 }
 
+
+
+.cover3 {
+  position: absolute;
+  top: 350;
+  left: 683px;
+  background-color: red;
+  width: 587px;
+  height: 100px;
+  z-index: 100;
+}
+
 .coverFinal {
   position: absolute;
   top: 300;
