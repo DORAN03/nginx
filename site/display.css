@@ -2,13 +2,13 @@ body {
   background-color: #262a33;
 }
 
-.cover {
+.cover1 {
   position: absolute;
   top: 340;
-  left: 980px;
+  left: 900px;
   background-color: #262a33;
   width: 567px;
-  height: 170px;
+  height: 100px;
   z-index: 100;
 }
 
