@@ -6,6 +6,10 @@ body {
   background-color: #FBFBFB;
 }
 
+.navbar {
+  background-color: white;
+}
+
 .NavUL {
   position: fixed;
   top: 0;
