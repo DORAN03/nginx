@@ -12,6 +12,7 @@ body {
   left: 0;
   width: 100%;
   list-style-type: none;
+  background-color: white;
   margin: 0;
   padding: 0px;
   overflow: hidden;
@@ -350,4 +351,140 @@ body {
   background: #FFEF9D;
   border-radius: 100%;
   z-index: 3;
+}
+
+.Circle10 {
+  position: absolute;
+  width: 318px;
+  height: 318px;
+  left: 1085px;
+  top: 384px;
+  background: #FFCECE;
+  border-radius: 100%;
+  z-index: 3;
+}
+
+.Circle11 {
+  position: absolute;
+  width: 255px;
+  height: 255px;
+  left: 830px;
+  top: 805px;
+  background: #DCFFD0;
+  border-radius: 100%;
+  z-index: 3;
+}
+
+.Circle12 {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  left: 1074px;
+  top: 894px;
+  background: #FFEF9D;
+  border-radius: 100%;
+  z-index: 3;
+}
+
+.Circle13 {
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  left: 942px;
+  top: 1064px;
+  background: #FECFFF;
+  border-radius: 100%;
+  z-index: 3;
+}
+
+.Circle14 {
+  position: absolute;
+  width: 303px;
+  height: 303px;
+  left: 917px;
+  top: 1237px;
+  background: #FFD4AD;
+  border-radius: 100%;
+  z-index: 3;
+}
+
+.Circle15 {
+  position: absolute;
+  width: 203px;
+  height: 203px;
+  left: 1211px;
+  top: 721px;
+  background: #C6D6FF;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.title1 {
+  position: absolute;
+  width: 493px;
+  height: 204px;
+  left: 65px;
+  top: 115px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  font-family: 'Josefin Sans';
+  line-height: 68px;
+  color: #060606;
+  z-index: 9999999999;
+}
+
+.vector1 {
+  position: absolute;
+  width: 300px;
+  height: 0px;
+  left: 1015px;
+  top: 197px;
+  border: 1px solid #000000;
+}
+
+.QOTD {
+  position: absolute;
+  width: 159px;
+  height: 26px;
+  left: 1100px;
+  top: 145px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.QOTDMessage {
+  position: absolute;
+  width: 292px;
+  height: 81px;
+  left: 1019px;
+  top: 190px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.featured {
+  position: absolute;
+  width: 720px;
+  height: 782px;
+  left: 65px;
+  top: 702px;
+}
+
+.FTRDRec1 {
+  position: absolute;
+  width: 720px;
+  height: 739px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  border-radius: 40px;
 }
