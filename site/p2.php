@@ -1,7 +1,7 @@
 <html>
   <head>
   <title>P2Design || Home</title>
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="p2.css">
 </head>
    <body>
     <div class="NavBar">
