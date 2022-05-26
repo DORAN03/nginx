@@ -1,0 +1,353 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
+  background-color: #FBFBFB;
+}
+
+.NavUL {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  z-index: 100000;
+  border-bottom: 1px solid #D5D5D5;
+}
+
+.NavLI {
+   float: right;
+}
+
+.NavLI-L {
+   float: left;
+}
+
+.NavLI-L a {
+  display: block;
+  color: #060606;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+}
+
+.NavLI a {
+  display: block;
+  color: #060606;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#disabled {
+  cursor: not-allowed;
+}
+
+#enabled {
+  cursor: pointer;
+}
+
+#logo {
+  display: block;
+  position: relative;
+  top: -3px;
+  max-height: 46px;
+  padding: 6px;
+  overflow: hidden;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+
+}
+
+.ZoneA {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#ZATitle {
+  color: white;
+  text-align: justify;
+  align: left;
+  max-width: 300px;
+  margin: 20px 30px 0px 5px;
+}
+
+.ZAFact {
+  color: white;
+  text-align: center;
+  text-align: justify;
+  float: left;
+  max-width: 300px;
+  margin: 20px 30px 0px 5px;
+}
+
+.ZoneB {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#name {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+#AboutClubTitle {
+  color: white;
+  text-align: justify;
+  align: right;
+  max-width: 300px;
+  margin: 0px 30px 20px 5px;
+}
+
+#ClubInfo {
+  color: white;
+  text-align: justify;
+  float: right;
+  max-width: 300px;
+  margin: 0px 30px 20px 5px;
+}
+
+#ClubExtra {
+  text-decoration: none;
+  text-align: justify;
+  float: right;
+  max-width: 300px;
+  margin: 0px 30px 20px 5px;
+}
+
+.Hero-Image {
+  margin-top: 47px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/DORAN03/nginx/blob/main/site/web-development-coding-programming-futuristic-banner-computer-code-laptop_3482-5582.jpg?raw=true");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Hero-Text {
+  text-align: center;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-47%, -50%);
+  color: white;
+}
+
+#BannerTitle {
+  font-size: 50px;
+  margin: 0px;
+}
+
+#BannerSlogan {
+  font-size: 24px;
+}
+
+#BannerButton {
+  background-color: #ab06cc;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+#BannerButton:hover {
+  background-color: #68017d;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.disabled {
+  background-color: #ab06cc;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#Quote1 {
+  display: inline-block;
+  max-width: 80%;
+  max-height: 80%;
+  margin-top: 15px;
+  float: right;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 50%;
+  background-color: #5CDB95;
+  padding: 20px;
+}
+
+.right {
+  flex: 50%;
+  background-color: #5CDB95;
+  padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #3c9162; /* Grey background */
+}
+
+
+.TitleBubble1{
+  position: absolute;
+  width: 671px;
+  height: 262px;
+  left: -75px;
+  top: 130px;
+
+  background: #fff;
+  border-radius: 40px;
+  z-index: 200;
+}
+
+.Circle1 {
+  position: absolute;
+  width: 342px;
+  height: 342px;
+  left: 31px;
+  top: 90px;
+  background: #C6D6FF;
+  border-radius: 100%;
+  z-index: 1;
+}
+.Circle2 {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  left: 207px;
+  top: 335px;
+  background: #FFEF9D;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.Circle3 {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 356px;
+  top: 171px;
+  background: #DCFFD0;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.Circle4 {
+  position: absolute;
+  width: 158px;
+  height: 158px;
+  left: 44px;
+  top: 439px;
+  background: #FFCECE;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.Circle5 {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  left: 501px;
+  top: 273px;
+  background: #FFCCCC;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.Circle6 {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  left: 435px;
+  top: 450px;
+  background: #DCC0FF;
+  border-radius: 100%;
+  z-index: 3;
+}
+
+.Circle7 {
+  position: absolute;
+  width: 254px;
+  height: 254px;
+  left: 624px;
+  top: 129px;
+  background: #FECFFF;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.Circle8 {
+  position: absolute;
+  width: 389px;
+  height: 389px;
+  left: 696px;
+  top: 303px;
+  background: #FFD4AD;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+.Circle9 {
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  left: 958px;
+  top: 619px;
+  background: #FFEF9D;
+  border-radius: 100%;
+  z-index: 3;
+}
