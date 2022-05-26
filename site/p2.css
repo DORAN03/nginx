@@ -436,7 +436,7 @@ body {
   font-family: 'Josefin Sans';
   line-height: 68px;
   color: #060606;
-  z-index: 9999999999;
+  z-index: 9999;
 }
 
 .vector1 {
